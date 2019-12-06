@@ -13,6 +13,10 @@
 		32B7ACCE239ABE2C00883A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B7ACCD239ABE2C00883A68 /* Assets.xcassets */; };
 		32B7ACD1239ABE2C00883A68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B7ACD0239ABE2C00883A68 /* Preview Assets.xcassets */; };
 		32B7ACD4239ABE2C00883A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B7ACD2239ABE2C00883A68 /* LaunchScreen.storyboard */; };
+		32B7ACDE239ABE3C00883A68 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7ACDB239ABE3C00883A68 /* GameScreen.swift */; };
+		32B7ACDF239ABE3C00883A68 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7ACDC239ABE3C00883A68 /* Board.swift */; };
+		32B7ACE0239ABE3C00883A68 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7ACDD239ABE3C00883A68 /* HomeScreen.swift */; };
+		32B7ACE2239AC55800883A68 /* GameoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B7ACE1239AC55800883A68 /* GameoverScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		32B7ACD0239ABE2C00883A68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32B7ACD3239ABE2C00883A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32B7ACD5239ABE2C00883A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B7ACDB239ABE3C00883A68 /* GameScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		32B7ACDC239ABE3C00883A68 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		32B7ACDD239ABE3C00883A68 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		32B7ACE1239AC55800883A68 /* GameoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameoverScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				32B7ACC7239ABE2A00883A68 /* AppDelegate.swift */,
 				32B7ACC9239ABE2A00883A68 /* SceneDelegate.swift */,
 				32B7ACCB239ABE2A00883A68 /* ContentView.swift */,
+				32B7ACDD239ABE3C00883A68 /* HomeScreen.swift */,
+				32B7ACDB239ABE3C00883A68 /* GameScreen.swift */,
+				32B7ACDC239ABE3C00883A68 /* Board.swift */,
+				32B7ACE1239AC55800883A68 /* GameoverScreen.swift */,
 				32B7ACCD239ABE2C00883A68 /* Assets.xcassets */,
 				32B7ACD2239ABE2C00883A68 /* LaunchScreen.storyboard */,
 				32B7ACD5239ABE2C00883A68 /* Info.plist */,
@@ -146,7 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B7ACE2239AC55800883A68 /* GameoverScreen.swift in Sources */,
 				32B7ACC8239ABE2A00883A68 /* AppDelegate.swift in Sources */,
+				32B7ACDE239ABE3C00883A68 /* GameScreen.swift in Sources */,
+				32B7ACE0239ABE3C00883A68 /* HomeScreen.swift in Sources */,
+				32B7ACDF239ABE3C00883A68 /* Board.swift in Sources */,
 				32B7ACCA239ABE2A00883A68 /* SceneDelegate.swift in Sources */,
 				32B7ACCC239ABE2A00883A68 /* ContentView.swift in Sources */,
 			);
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastercodekw.code.Hackathon19GaucAMole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastercodekw.code.Hackathon19GaucAMole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
